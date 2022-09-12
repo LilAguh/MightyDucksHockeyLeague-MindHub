@@ -1,0 +1,128 @@
+:root{
+    --back-color: rgb(240, 231, 142);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: titlefont;
+    src: url("../fonts/Sw921Rg.ttf");
+}
+body{
+    background-color: var(--back-color);
+    margin: 5% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerImg{
+    background-color: rgb(33, 25, 21);
+    height: 200px;
+    background-position: center;
+    border-top:    5px solid rgb(33, 25, 21);
+    border-right:  5px solid rgb(33, 25, 21); 
+    border-left: 5px solid rgb(33, 25, 21);
+}
+h1{
+    color: rgb(248, 255, 46);
+    font-size: 75px;
+    font-family: titlefont;
+    text-shadow: rgb(198, 72, 50) 3px 0px 0px, rgb(198, 72, 50) 2.83487px 0.981584px 0px, rgb(198, 72, 50) 2.35766px 1.85511px 0px, rgb(198, 72, 50) 1.62091px 2.52441px 0px, rgb(198, 72, 50) 0.705713px 2.91581px 0px, rgb(198, 72, 50) -0.287171px 2.98622px 0px, rgb(198, 72, 50) -1.24844px 2.72789px 0px, rgb(198, 72, 50) -2.07227px 2.16926px 0px, rgb(198, 72, 50) -2.66798px 1.37182px 0px, rgb(198, 72, 50) -2.96998px 0.42336px 0px, rgb(198, 72, 50) -2.94502px -0.571704px 0px, rgb(198, 72, 50) -2.59586px -1.50383px 0px, rgb(198, 72, 50) -1.96093px -2.27041px 0px, rgb(198, 72, 50) -1.11013px -2.78704px 0px, rgb(198, 72, 50) -0.137119px -2.99686px 0px, rgb(198, 72, 50) 0.850987px -2.87677px 0px, rgb(198, 72, 50) 1.74541px -2.43999px 0px, rgb(198, 72, 50) 2.44769px -1.73459px 0px, rgb(198, 72, 50) 2.88051px -0.838247px 0px, -8px 0px 0px rgba(95, 161, 153, 1);
+    position: absolute;
+    right: 87px;
+    top: 17%;
+}
+.logo{
+    height: 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+}
+.headerBar{ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: var(--back-color);
+    height: 50px;
+    border: 50px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+.bar{
+    color: rgb(33, 25, 21);
+    padding-left: 45%;
+    font-size: 30px;
+}
+.mainIndex{
+    padding-top: 80px;
+    display: flex;
+}
+nav{
+    align-self: flex-start;
+    display: flex;
+    position: relative;
+    bottom: 160px;
+    left: 20%;
+}
+a:hover{
+    background-color: rgb(33, 25, 21);
+    color: rgba(95, 161, 153, 1);
+    padding: 5px;
+    border: 2px solid rgba(95, 161, 153, 1);
+
+}
+.active{
+    text-decoration: underline;
+}
+nav>a{
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--back-color);
+    background-color: rgb(33, 25, 21);
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid var(--back-color);
+}
+.mainInfo{
+    padding: 10px 50px;
+    flex-direction: column;
+    max-height: 300px;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+p{
+    padding: 20px 0px;
+    font-size: 20px;
+    width: 600px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(198, 72, 50);
+}
+.mail{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(198, 72, 50);
+    width: 150px;
+}
+.hockeyimg{
+    height: 180px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(33, 25, 21);
+    margin-left: 5px;
+    border: 5px solid rgb(198, 72, 50);
+    position:absolute;
+    left: 14%;
+    bottom: 15%;
+}
