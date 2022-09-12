@@ -1,0 +1,17 @@
+header > img {
+    width: 33px;
+    float: left;
+    vertical-align: middle;
+}
+
+.title{
+    font-size: 38px;
+
+}
+.logo{
+    width: 120px;
+}
+
+.imagen1, .imagen2, .imagen3{
+    width: 260px;
+}
